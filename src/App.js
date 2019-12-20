@@ -1,11 +1,11 @@
 import React from 'react';
-import { PrimaryButton } from 'office-ui-fabric-react/lib/Button';
 import MemoList from './MemoList';
+import MemoWrite from './MemoWrite';
 
 const App = () => (
   <div className="app">
     <MemoList />
-    <PrimaryButton>Button</PrimaryButton>
+    <MemoWrite />
   </div>
 )
 
