@@ -5,7 +5,7 @@ import { TextField } from 'office-ui-fabric-react/lib/TextField';
 
 const MemoWrite = () => (
   <div className={style.memoWrite}>
-    <TextField label="Note Something" />
+    <TextField className={style.input} label="Note Something" />
     <PrimaryButton>Submit</PrimaryButton>
   </div>
 )

@@ -1,3 +1,9 @@
-.memoWrite{
-  width: 120px;
+.memoWrite {
+  display: flex;
+  align-items: flex-end;
+}
+
+.input {
+  flex: 1;
+  margin-right: 10px;
 }
