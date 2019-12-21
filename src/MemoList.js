@@ -1,22 +1,15 @@
 import React from 'react';
 
-const MemoDummyData = [
-  {
-    id: 0,
-    title: "Hello"
-  },
-  {
-    id: 1,
-    title: "World"
-  }
-]
+const MemoList = (props) => {
+  const { memoList } = props;
 
-const MemoList = () => (
-  <div className="memo-list">
-    {MemoDummyData.map(item => (
-      <div key={item.id}>{item.title}</div>
-    ))}
-  </div>
-)
+  return (
+    <div className="memo-list">
+      {memoList.map(item => (
+        <div key={item.id}>{item.value}</div>
+      ))}
+    </div>
+  )
+}
 
 export default MemoList;
