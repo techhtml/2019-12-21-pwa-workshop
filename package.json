@@ -25,6 +25,7 @@
     "webpack": "^4.41.4",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1",
-    "webpack-pwa-manifest": "^4.1.1"
+    "webpack-pwa-manifest": "^4.1.1",
+    "workbox-webpack-plugin": "^4.3.1"
   }
 }
